@@ -1,0 +1,7 @@
+license_key: "Your Looker License Key"
+host_url: "http://localhost"
+user:
+  first_name: "looker user first name"
+  last_name: "looker user last name"
+  email: "looker user email address"
+  password: "password-678$#-LOCAL-testing"
