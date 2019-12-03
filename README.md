@@ -6,7 +6,7 @@
 
 **Currently supported operating system: Ubuntu 18.04(automatically grabs the latest version of Ubuntu)**
 
-This is a dockerized version of the looker stack.
+This is a dockerized version of the Looker stack.
 
 This code was taken from <https://github.com/troyharvey/docker_looker/tree/looker-6-docker-setup> and modified to follow the patterns that I'm using in AWS.
 
@@ -14,7 +14,7 @@ This code was taken from <https://github.com/troyharvey/docker_looker/tree/looke
 
 1. Install Docker for Mac. https://docs.docker.com/docker-for-mac/install/
 
-2. Modify Docker for Mac settings to work more optimally with airflow.
+2. Modify Docker for Mac settings to work more optimally with Looker.
     * Open up the preferences menu item on Docker for the Mac and modify each tab to look similar to this.
 
 ![General](./images/docker1.png?raw=true)
@@ -55,4 +55,4 @@ Once Docker for Mac is up and running you need to do the following items to star
 
 `docker-compose --verbose -f docker-compose.yml down`
 
-Navigate to http://localhost:80 to the looker website and login with.
+Navigate to http://localhost:80 to the Looker website and login with the credentials you set up in step 2.
